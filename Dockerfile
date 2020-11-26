@@ -1,4 +1,4 @@
 FROM nginx
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY app /usr/share/nginx/html/app
+COPY blog /usr/share/nginx/html/blog
 RUN mkdir -p /etc/nginx/logs
